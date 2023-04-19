@@ -1,0 +1,234 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+/* header part start */
+
+header{
+    background-color: #FFF8F3;
+    background-image: url(images/developer.png), url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: left, bottom right;
+}
+
+nav{
+    padding: 50px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.title-design{
+    color: #FD6E0A;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style-type: none;
+    margin-left: 50px;
+}
+
+.btn-primary{
+    padding: 18px 35px;
+    background-color: #FD6E0A;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    height: 64px;
+}
+
+
+
+
+
+.banner{
+    padding: 0 200px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-text{
+
+}
+
+.banner-text h3{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.banner-text h1{
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.banner-text p{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.banner-image{
+    display: block;
+}
+
+
+/* header part end */
+
+/* about part start */
+
+.about-part{
+    background-color: #FFF8F3;
+    margin-top: 130px;
+    text-align: center;
+    padding: 130px 150px;
+    border-radius: 10px;
+}
+
+.section-title{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+
+.section-description{
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #757575;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-title{
+    font-size: 20px;
+    color: #757575;
+}
+
+.info-description{
+    font-size: 20px;
+    font-weight: 700;
+    color: #474747;
+}
+
+/* about part end */
+
+/* what i do part start */
+
+.what-i-do{
+    margin-top: 130px;
+}
+
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skill{
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.06);
+}
+
+.skill-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-description{
+    color: #757575;
+}
+
+/* what i do part end */
+
+/* resume part start */
+
+.resume{
+    margin-top: 130px;
+}
+
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+
+.qualification-item{
+    margin: 30px 0px;
+}
+
+.qua-item-1{
+    font-size: 26px;
+    color: #474747;
+}
+
+.qua-item-2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #757575;
+}
+
+.qua-description{
+    color: #757575;
+}
+
+.resume-btn{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* resume part end */
+
+/* form part start */
+
+.form-part{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    display: flex;
+    gap: 100px;
+    padding: 130px 200px;
+}
+
+.form-text a{
+    text-decoration: none;
+}
+
+input{
+    height: 64px;
+}
+
+.form-part input[type="text"], input[type="email"], textarea{
+    border: 0;
+    padding: 18px 30px;
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+.form-part .section-title{
+    text-align: left;
+}
+
+/* form part end */
